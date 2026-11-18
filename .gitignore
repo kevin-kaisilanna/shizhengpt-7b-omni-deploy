@@ -1,0 +1,27 @@
+# 模型目录与权重（约 18 GB，一律不上传）
+ShizhenGPT-7B-Omni/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+model.safetensors.index.json
+
+# 第三方安装包 / 环境
+LM-Studio-*.exe
+.venv/
+venv/
+env/
+conda/
+
+# Python 产物
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 本地测试产物
+*.wav
+*.mp3
+*.mp4
+*.log
+*.png

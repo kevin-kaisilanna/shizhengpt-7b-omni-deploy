@@ -1,0 +1,9 @@
+# ShizhenGPT-7B-Omni 官方明确要求 transformers==4.51.0，
+# 其它版本可能无法识别 Qwen2_5_VL_Audio_ForConditionalGeneration 自定义架构。
+transformers==4.51.0
+torch>=2.1
+accelerate
+Pillow
+librosa
+soundfile
+qwen_vl_utils
